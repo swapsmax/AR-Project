@@ -925,7 +925,6 @@ GameObject:
   - component: {fileID: 1086580107}
   - component: {fileID: 1086580106}
   - component: {fileID: 1086580105}
-  - component: {fileID: 1086580111}
   - component: {fileID: 1086580112}
   m_Layer: 0
   m_Name: AR Camera
@@ -1076,53 +1075,6 @@ Transform:
   m_Father: {fileID: 1090314078}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1086580111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1086580103}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68a076e7dedf4411b96ca259dc65ce59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1817555234}
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_InteractionLayers:
-    m_Bits: 4294967295
-  m_AttachTransform: {fileID: 0}
-  m_KeepSelectedTargetValid: 1
-  m_StartingSelectedInteractable: {fileID: 0}
-  m_HoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_XROrigin: {fileID: 1090314079}
-  m_ARSessionOrigin: {fileID: 0}
 --- !u!114 &1086580112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1192,7 +1144,6 @@ GameObject:
   - component: {fileID: 1090314077}
   - component: {fileID: 1090314076}
   - component: {fileID: 1090314075}
-  - component: {fileID: 1090314079}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -1227,7 +1178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PlanePrefab: {fileID: 4418377421857429153, guid: 43f20a393eebf3746b8378ba5debbe0f,
     type: 3}
-  m_DetectionMode: 1
+  m_DetectionMode: -1
 --- !u!114 &1090314077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1257,24 +1208,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1090314079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1090314074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Camera: {fileID: 1086580104}
-  m_OriginBaseGameObject: {fileID: 1090314074}
-  m_CameraFloorOffsetObject: {fileID: 4418377421857429153, guid: 43f20a393eebf3746b8378ba5debbe0f,
-    type: 3}
-  m_RequestedTrackingOriginMode: 0
-  m_CameraYOffset: 1.1176
 --- !u!1 &1312060481
 GameObject:
   m_ObjectHideFlags: 0
