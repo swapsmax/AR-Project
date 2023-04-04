@@ -18,5 +18,9 @@ EditorBuildSettings:
       type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: 7e54936adf1b5be41bf03774dcd35fb2,
       type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: deaa49fde16e4f04991cc75ee9622382,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3fd4fc0127790db4bae83f7b77da8d45,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: c97a45f4f775f674ea2b2d2d6d2d017b,
       type: 2}

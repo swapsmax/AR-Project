@@ -7,24 +7,32 @@ using DG.Tweening;
 public class ButtonManager : MonoBehaviour
 {
     private Button btn;
-    [SerializeField] private RawImage buttonImage;
+    [SerializeField]private RawImage buttonImage;
+    //public GameObject lights;
 
     private int _itemId;
-    private Sprite buttonTexture;
+    private Sprite _buttonTexture;
 
-    public int ItemId{
-        set {_itemId = value;}
-    }
-    public Sprite ButtonTexture{
-        set { buttonTexture = value;
-            buttonImage.texture = buttonTexture.texture;
+    public Sprite ButtonTexture
+    {
+        set
+        {
+            _buttonTexture = value;
+            buttonImage.texture = _buttonTexture.texture;
         }
     }
+
+    public int ItemId
+    {
+        set{ _itemId = value; }
+    }
+    
+    
     // Start is called before the first frame update
     void Start()
     {
         btn = GetComponent<Button>();
-        btn.onClick.AddListener(selectObject);
+        btn.onClick.AddListener(SelectObject);
     }
 
     // Update is called once per frame
@@ -38,8 +46,9 @@ public class ButtonManager : MonoBehaviour
         }
     }
 
-    //Select the object
-    void selectObject(){
+    void SelectObject()
+    {
         Datahandler.Instance.SetLight(_itemId);
     }
+
 }

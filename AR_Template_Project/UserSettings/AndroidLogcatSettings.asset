@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "JFVCTSIR4POJ6HHQ",
+    "m_SelectedDeviceId": "RR8M406XKFR",
     "m_SelectedPackage": {
-        "deviceId": "JFVCTSIR4POJ6HHQ",
+        "deviceId": "RR8M406XKFR",
         "name": "com.UnityLearn.ARProject",
-        "processId": 20766,
+        "processId": 21443,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -12,6 +12,36 @@
             "deviceId": "JFVCTSIR4POJ6HHQ",
             "name": "com.UnityLearn.ARProject",
             "processId": 20766,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 1796,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 10802,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 13012,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 18393,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 21443,
             "exited": false
         }
     ],
