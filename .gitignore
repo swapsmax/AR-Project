@@ -8,3 +8,4 @@ library/
 test_BurstDebugInformation_DoNotShip/
 temp
 Plugins/
+Assets/Plugins/
