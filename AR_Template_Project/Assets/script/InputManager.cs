@@ -13,24 +13,33 @@ public class InputManager : MonoBehaviour
     [SerializeField] private Camera arCam;
     [SerializeField] private ARRaycastManager _raycastManager;
     [SerializeField] private GameObject crosshair;
+    [SerializeField] private Button checkbtn;
 
     private List<ARRaycastHit> _hits = new List<ARRaycastHit>();
 
+    private bool leaneditcheck = true;
     private Touch touch;
     private Pose pose;
+
+    void Start()
+    {
+        Button btn = checkbtn.GetComponent<Button>();
+        btn.onClick.AddListener(checkleantouch);
+    }
 
     void Update()
     {
         CrosshairCalculation();
         touch = Input.GetTouch(0);
-
-        if (Input.touchCount < 0 || touch.phase != TouchPhase.Began)
-            return;
-        
-        if (IsPointerOverUI(touch))
-            return;
-        
-        Instantiate(Datahandler.Instance.GetLight(),pose.position, pose.rotation);
+        if (leaneditcheck)
+        {
+            if (Input.touchCount < 0 || touch.phase != TouchPhase.Began)
+                return;
+            
+            if (IsPointerOverUI(touch)) return;
+            
+            Instantiate(Datahandler.Instance.GetLight(),pose.position, pose.rotation);
+        }
     }
 
     bool IsPointerOverUI(Touch touch)
@@ -52,6 +61,15 @@ public class InputManager : MonoBehaviour
             pose = _hits[0].pose;
             crosshair.transform.position = pose.position;
             crosshair.transform.eulerAngles = new Vector3(90,0,0);
+        }
+    }
+
+    void checkleantouch(){
+        if (leaneditcheck){
+            leaneditcheck = false;
+        }
+        else{
+            leaneditcheck = true;
         }
     }
 
