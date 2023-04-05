@@ -14,8 +14,10 @@ public class Datahandler : MonoBehaviour
     private int currid = 0;
 
     private static Datahandler instance;
-    public static Datahandler Instance {
-        get{
+    public static Datahandler Instance 
+    {
+        get
+        {
             if (instance == null)
             {
                 instance = FindObjectOfType<Datahandler>();
