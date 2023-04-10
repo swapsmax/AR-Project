@@ -9,3 +9,4 @@ test_BurstDebugInformation_DoNotShip/
 temp
 Plugins/
 AR_Template_Project/Assets/Plugins/
+*.log
