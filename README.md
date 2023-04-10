@@ -7,6 +7,7 @@ An Augmented Reality (AR) project for the Virtual and Augmented Reality module.
 2) Download Relevant packages from package manager. ( I do not know how to do a requirement.txt for Unity so do it manually thanks)<br>
   directory are Window -> Package Manager -> top left of the manager, packages<br>
   Packages required:<br>
+    a) addressables 1.19.19<br>
     b) Android Logcat for debugging<br>
     c) AR Foundation<br>
     d) TextMeshPro<br>
