@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "R5CR41H2THA",
+    "m_SelectedDeviceId": "RR8M406XKFR",
     "m_SelectedPackage": {
-        "deviceId": "R5CR41H2THA",
+        "deviceId": "RR8M406XKFR",
         "name": "com.UnityLearn.ARProject",
-        "processId": 8962,
+        "processId": 24255,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -48,6 +48,132 @@
             "deviceId": "R5CR41H2THA",
             "name": "com.UnityLearn.ARProject",
             "processId": 8962,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 18272,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 19392,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 20129,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 20971,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 21536,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 24155,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 24998,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 25874,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 26745,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 27479,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 28229,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 28984,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 29648,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 30292,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 16714,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 18848,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 19849,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 20491,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 21784,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 23457,
+            "exited": false
+        },
+        {
+            "deviceId": "RR8M406XKFR",
+            "name": "com.UnityLearn.ARProject",
+            "processId": 24255,
             "exited": false
         }
     ],
