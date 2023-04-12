@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 723e13bd8d4829e41b839ccb593e2aa5, type: 3}
-  m_Name: yellowspot
+  m_Name: CeilingLight
   m_EditorClassIdentifier: 
-  itemPrefab: {fileID: 4780117272292958740, guid: 9aa283e4460f2524da381df36f250f5a,
+  itemPrefab: {fileID: 2038266662417348277, guid: 92ffb9bafeec5404aa3198e6d82889df,
     type: 3}
   itemImage: {fileID: 21300000, guid: d4b82293e6972e24a9843541ba9d57c6, type: 3}
