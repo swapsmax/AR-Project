@@ -14,9 +14,11 @@ public class InputManager : MonoBehaviour
     [SerializeField] private ARRaycastManager _raycastManager;
     [SerializeField] private GameObject crosshair;
     [SerializeField] private Button checkbtn;
+    [SerializeField] private TMPro.TextMeshProUGUI checktext;
+    [SerializeField] private Button removebtn;
 
     private List<ARRaycastHit> _hits = new List<ARRaycastHit>();
-
+    private List<GameObject> createdlights = new List<GameObject>();
     private bool leaneditcheck = true;
     private Touch touch;
     private Pose pose;
@@ -24,7 +26,10 @@ public class InputManager : MonoBehaviour
     void Start()
     {
         Button btn = checkbtn.GetComponent<Button>();
+        Button rbtn = removebtn.GetComponent<Button>();
         btn.onClick.AddListener(checkleantouch);
+        rbtn.onClick.AddListener(removetouch);
+
     }
 
     void Update()
@@ -38,7 +43,7 @@ public class InputManager : MonoBehaviour
             
             if (IsPointerOverUI(touch)) return;
             
-            Instantiate(Datahandler.Instance.GetLight(),pose.position, pose.rotation);
+            createdlights.Add(Instantiate(Datahandler.Instance.GetLight(),pose.position, pose.rotation));
         }
     }
 
@@ -67,10 +72,20 @@ public class InputManager : MonoBehaviour
     void checkleantouch(){
         if (leaneditcheck){
             leaneditcheck = false;
+            checktext.text = "Editting";
         }
         else{
             leaneditcheck = true;
+            checktext.text = "Edit Lights";
         }
     }
-
+    void removetouch(){
+        if (createdlights.Count > 1){
+            
+            foreach(GameObject i in createdlights){
+                Destroy(i);
+            }
+            createdlights.Clear();
+        }
+    }
 }
