@@ -241,3 +241,7 @@ Received Import Request.
   path: Assets/Resources/items/Fluolight.asset
   artifactKey: Guid(48a68c2961b33d2488bf6fb666f73a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Resources/items/Fluolight.asset using Guid(48a68c2961b33d2488bf6fb666f73a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b895db5743eaefd1cc136fc9a5c85fad') in 0.016015 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

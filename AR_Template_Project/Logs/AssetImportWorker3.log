@@ -181,3 +181,7 @@ Received Import Request.
   path: Assets/Resources/items/StageLight.asset
   artifactKey: Guid(bbb7a94084f5a3145a18c0bc3808996c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Resources/items/StageLight.asset using Guid(bbb7a94084f5a3145a18c0bc3808996c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c0bafd59aaedf364b59a2dcd00122a') in 0.020127 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
