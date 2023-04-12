@@ -80,7 +80,7 @@ public class InputManager : MonoBehaviour
         }
     }
     void removetouch(){
-        if (createdlights.Count > 1){
+        if (createdlights.Count > 0){
             
             foreach(GameObject i in createdlights){
                 Destroy(i);
